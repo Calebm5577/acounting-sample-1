@@ -1,26 +1,66 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { StickyContainer, Sticky } from 'react-sticky';
+import { Header } from './components/Header/Header';
+import { Testimonials } from './components/Testimonials/Testimonials';
+import { Clients } from './components/Clients/Clients';
+import { Consultation } from './components/RequestConsultation/Consultation';
+import { Footer } from './components/Footer/Footer';
+import  Menu  from './components/responsive-menu/menu';
+import './components/Mainnav/Mainnav.scss';
+import { Switch, Route } from 'react-router-dom';
 
-function App() {
+//Pages
+import { Index } from './pages/Index';
+import { About } from './pages/About';
+import { Services } from './pages/Services';
+import { Resources } from './pages/Resources';
+import { Contact } from './pages/Contact';
+
+ const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <StickyContainer>
+        <Sticky>
+          {({
+            style
+          }) => (
+            <header style={style} className="Mainnav">
+              <Menu />
+            </header>
+          )}
+        </Sticky>
+        <Switch>
+          <Route exact path='/About' component={About}/>
+          <Route exact path='/' component={Index} />
+          <Route exact path="/Services" component={Services}/>
+          <Route exact path="/Resources" component={Resources}/>
+          <Route exact path="/Contact" component={Contact}/>
+        </Switch>
+        <Testimonials />
+        <Clients />
+        <Consultation />
+        <Footer />
+      </StickyContainer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+
+/*
+<StickyContainer>
+
+        <Sticky>
+          {({
+            style
+          }) => (
+            <header style={style} className="Mainnav">
+              <Menu />
+            </header>
+          )}
+        </Sticky>
+            <img src={banner} alt="banner" className="Mainnav-banner"/>
+      </StickyContainer> */

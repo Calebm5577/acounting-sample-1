@@ -1,0 +1,33 @@
+.Banner {
+    height: 250px;
+    background-image: url('../../../images/accounting-banner-img.jpg');
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (min-width: 801px) {
+
+    .Banner {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .Banner {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .Banner {
+        height: 400px;
+    }
+}
+
+//../../../images/accounting-banner-img.jpg

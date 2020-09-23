@@ -1,0 +1,23 @@
+.Banner {
+    height: 250px;
+    background-image: url('../../../images/about-accounting-services-banner.jpg');
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    font-size: 32px;
+
+    & h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        color: white;
+        z-index: 0;
+        
+    }
+    
+}
+
+//

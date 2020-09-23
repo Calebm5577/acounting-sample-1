@@ -1,0 +1,38 @@
+.Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    &-div1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        & img {
+            display: none;
+        }
+
+        &-title {
+            width: 50%;
+            border: 1px solid black;
+            font-size: 13px;
+        }
+
+        &-link {
+            width: 50%;
+            border: 1px solid black;
+            font-size: 13px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 650px) {
+    .Body-div1-title, .Body-div1-link {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,40 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #527183;
+    color: white;
+
+    & ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+        & li {
+            margin-left: 9px;
+            padding: 5px;
+        }
+    }
+
+    & div {
+        text-align: center;
+        margin-bottom: 30px;
+        display: flex;
+
+    }
+}
+
+.Font-size-12 {
+    font-size: 12px;
+    color: rgb(200, 207, 209);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Font-size-11 {
+    font-size: 11px;
+    color: rgb(200, 207, 209);
+    padding-bottom: 40px;
+}

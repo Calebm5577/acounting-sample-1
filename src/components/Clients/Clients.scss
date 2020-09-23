@@ -1,0 +1,29 @@
+.Clients {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    
+    &-div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & div {
+
+            & img {
+                height: 75px;
+                margin: 10px;
+            }
+        }
+    }
+    
+
+
+    & h1 {
+        font-size: 50px;
+        font-weight: 400;
+        color: rgb(83, 113, 132);
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+}
