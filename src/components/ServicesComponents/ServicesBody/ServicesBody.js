@@ -56,7 +56,7 @@ export const ServicesBody = () => {
 
                     <div>
                         <img src={img3} alt="img3" />
-                        <h3>SERVICE #3</h3>
+                        <h3>SERVICE #4</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper orci libero, eu blandit elit maximus pharetra. Mauris a sodales ante. Maecenas ut auctor nulla. Etiam sodales turpis ut condimentum elementum. Sed rutrum sapien odio, eu elementum nunc vulputate a. Fusce risus leo, euismod sit amet orci sit amet, tempor ultrices eros.</p>
                         <ul className="Services-span-div-ul">
                             <li>Lorem ipsum dolor sit amet, consectetuer adipiscing</li>
@@ -78,8 +78,8 @@ export const ServicesBody = () => {
                 </div>
                 <div className="Services-div1">
                     <div>
-                        <img src={img1} alt="img1" />
-                        <h3>ACCOUNTING &amp; BOOKEEPING</h3>
+                        <img src={img4} alt="img1" />
+                        <h3>SERVICE #1</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper orci libero, eu blandit elit maximus pharetra. Mauris a sodales ante. Maecenas ut auctor nulla. Etiam sodales turpis ut condimentum elementum. Sed rutrum sapien odio, eu elementum nunc vulputate a. Fusce risus leo, euismod sit amet orci sit amet, tempor ultrices eros.</p>
                         <ul className="Services-span-div-ul">
                             <li>Lorem ipsum dolor sit amet, consectetuer adipiscing</li>
@@ -96,8 +96,8 @@ export const ServicesBody = () => {
 
                     <div>
                         <div className="Services-span-div">
-                            <img src={img2} alt="img2" />
-                            <h3>SERVICE #2</h3>
+                            <img src={img5} alt="img2" />
+                            <h3>SERVICE #3</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper orci libero, eu blandit elit maximus pharetra. Mauris a sodales ante. Maecenas ut auctor nulla. Etiam sodales turpis ut condimentum elementum. Sed rutrum sapien odio, eu elementum nunc vulputate a. Fusce risus leo, euismod sit amet orci sit amet, tempor ultrices eros.</p>
                             <ul className="Services-span-div-ul">
                                 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing</li>
@@ -118,8 +118,8 @@ export const ServicesBody = () => {
 
 
                     <div>
-                        <img src={img3} alt="img3" />
-                        <h3>SERVICE #3</h3>
+                        <img src={img6} alt="img3" />
+                        <h3>SERVICE #5</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper orci libero, eu blandit elit maximus pharetra. Mauris a sodales ante. Maecenas ut auctor nulla. Etiam sodales turpis ut condimentum elementum. Sed rutrum sapien odio, eu elementum nunc vulputate a. Fusce risus leo, euismod sit amet orci sit amet, tempor ultrices eros.</p>
                         <ul className="Services-span-div-ul">
                             <li>Lorem ipsum dolor sit amet, consectetuer adipiscing</li>

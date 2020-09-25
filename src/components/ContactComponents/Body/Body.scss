@@ -1,0 +1,32 @@
+.ContactBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //background-color: #2E3337;
+    font-size: 20px;
+
+    & div {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 210px;
+
+        & h3 {
+            color: #537184;
+        }
+
+        & p {
+            width: 150px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+    .ContactBody {
+
+        & div {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+}

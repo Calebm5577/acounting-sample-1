@@ -1,4 +1,4 @@
-.Banner {
+.IndexBanner {
     height: 250px;
     background-image: url('../../../images/accounting-banner-img.jpg');
     background-position-x: 50%;
@@ -11,21 +11,21 @@
 
 @media screen and (min-width: 801px) {
 
-    .Banner {
+    .IndexBanner {
         height: 300px;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
-    .Banner {
+    .IndexBanner {
         height: 350px;
     }
 }
 
 @media screen and (min-width: 1500px) {
 
-    .Banner {
+    .IndexBanner {
         height: 400px;
     }
 }

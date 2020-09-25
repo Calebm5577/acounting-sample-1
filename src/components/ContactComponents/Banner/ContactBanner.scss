@@ -1,0 +1,47 @@
+.ContactBanner {
+    height: 250px;
+    background-image: url('../../../images/contact-banner.jpg');
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 32px;
+
+    & h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        color: white;
+        z-index: 0;
+        
+    }
+
+
+}
+
+
+    
+// @media screen and (min-width: 801px) {
+    
+//     .ContactBanner {
+//         height: 300px;
+//     }
+// }
+
+// @media screen and (min-width: 1200px) {
+
+//     .ContactBanner {
+//         height: 350px;
+//     }
+// }
+
+// @media screen and (min-width: 1500px) {
+
+//     .ContactBanner {
+//         height: 400px;
+//     }
+// }
+

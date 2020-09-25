@@ -1,10 +1,10 @@
 import React from 'react'
-import './Banner.scss'
+import './ContactBanner.scss'
 
-export const Banner = () => {
+export const Banner2 = () => {
     return (
-        <div className="Banner">
-            
+        <div className="ContactBanner">
+            <h1>CONTACT US</h1>
         </div>
     )
 }

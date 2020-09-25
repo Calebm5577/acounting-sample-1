@@ -38,3 +38,11 @@
     color: rgb(200, 207, 209);
     padding-bottom: 40px;
 }
+
+.Link2 {
+    color: white;
+
+    &:hover {
+        color: #CB9C79;
+    }
+}

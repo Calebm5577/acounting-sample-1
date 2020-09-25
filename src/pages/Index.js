@@ -4,6 +4,8 @@ import {Body1} from '../components/IndexComponents/Body1/Body1'
 import {Body2} from '../components/IndexComponents/Body2/Body2'
 import {Body3} from '../components/IndexComponents/Body3/Body3'
 import {Services} from '../components/Services/Services'
+import { Testimonials } from '../components/Testimonials/Testimonials';
+import { Clients } from '../components/Clients/Clients';
 
 export const Index = () => {
     return (
@@ -13,6 +15,8 @@ export const Index = () => {
             <Body2 />
             <Body3 />
             <Services />
+            <Testimonials />
+            <Clients />
         </>
     )
 }
